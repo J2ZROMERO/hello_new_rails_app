@@ -12,7 +12,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     
-      {/* <App name={"algo algo"} /> */}
+      <App />
     
   </React.StrictMode>,
 );

@@ -1,10 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Greeting from './Gretings';
 
-const App = ({greeting}) => (  <h1>{greeting}!</h1> );
+const App = () => (
+    <Greeting />
   
-  
-  export default App;
- App.propTypes = {
-    greeting: PropTypes.string.isRequired,  
-  };
+);
+
+export default App;
+
