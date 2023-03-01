@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   namespace :api do
     get 'hello', to: 'greetings#hello'
   end
-  
   root "root#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

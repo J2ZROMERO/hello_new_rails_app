@@ -3,4 +3,5 @@ class Api::GreetingsController < ApplicationController
         @message = Greeting.order("RANDOM()").first.text
         render json: { message: @message }
       end
+      
 end
