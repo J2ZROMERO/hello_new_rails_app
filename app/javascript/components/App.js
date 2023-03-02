@@ -1,17 +1,10 @@
 import React from 'react';
-import { Greeting } from './greeting';
+import Greeting from './greeting';
 
-
-const App = () => {
-    
-    
-  
-    return (
-        <div>
-            <Greeting />
-        </div>
-    )
-};
+const App = () => (
+  <div>
+    <Greeting />
+  </div>
+);
 
 export default App;
-

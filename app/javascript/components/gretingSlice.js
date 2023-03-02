@@ -1,28 +1,22 @@
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-import { createAsyncThunk,createSlice } from "@reduxjs/toolkit";
 const GETTED_MSN = 'GETTED_MSN';
 
 const initialState = {
-  message: ""
+  message: '',
 };
 
 export const getmsn = createAsyncThunk(
   GETTED_MSN, async () => {
-    const response = await fetch("http://127.0.0.1:5000/api/hello");
+    const response = await fetch('http://127.0.0.1:5000/api/hello');
     const data = await response.json();
-    console.log(data)
     return data;
   },
 );
 
 export const greetingSlice = createSlice({
-  name: "greeting",
+  name: 'greeting',
   initialState,
-  reducers: { 
-    getMessage: (state) => {
-      state.message = action.payload;
-    }
-  },
 
   extraReducers: (builder) => {
     builder.addCase(getmsn.fulfilled, (_, action) => action.payload);
@@ -34,5 +28,4 @@ export const greetingSlice = createSlice({
   },
 });
 
-export const { getMessage } = greetingSlice.actions;
 export default greetingSlice.reducer;
