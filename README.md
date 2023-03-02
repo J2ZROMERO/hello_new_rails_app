@@ -164,6 +164,9 @@ You can deploy this project using:
   - encoding: unicode
   - username: postgres
   - password: 153624
+ 
+> **Important if you are using "Windows" please remove .dev in the Procfile [Procfile] file in the root directory**
+> **Important if you are using "Unix-based" please add .dev in the Procfile [Procfile.dev] file in the root directory**
   
 > Then execute: **postman start** to see the deployment in the port:5000
 
