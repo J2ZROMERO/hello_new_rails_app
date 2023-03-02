@@ -1,88 +1,53 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello-rails-app ](#-hello-rails-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Hello-rails-app <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+>  This is a project that shows you in the web-browser some greeting in different languages every time you refresh the page.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://code.visualstudio.com/">Viual Studio Code</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby</a></li>
   </ul>
 </details>
 
@@ -97,21 +62,21 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> The next key features are availble in this project.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Refresh the page to see diffent types of greetings.
 
+
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> You can see the deployment once it is executed in the next link.
 
-- [Live Demo Link](https://google.com)
+- Incomming.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,115 +84,109 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+> Install a text-editor you prefer. [Code editors](https://desarrolloweb.com/colecciones/editores-codigo).
 
-```sh
- gem install rails
-```
- -->
+> You need a database
+- [SQLlite](https://www.sqlite.org/index.html)
+- [MySQL](https://www.mysql.com/)
+- [Postgresql](https://www.postgresql.org/)
+
+> [Ruby](https://www.ruby-lang.org/en/downloads/)
+
+
+> [Ruby on Rails Framework](https://rubyonrails.org/)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+> You must have an account on git hub. [Git Hub](https://github.com/)
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+> You must have installed git in your local environment. [Git](https://git-scm.com/download/win)
+
+> If you just want to take a look quickly, make a fork and open the project in the web browser by adding ".dev" instead of ."com" in the repo link.
+- Example : https://github.dev/J2ZROMERO/hello_new_rails_app
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+Execute the bundle in your terminal with the path of 
+the directory.
 
-```sh
-  cd my-project
-  gem install
-```
---->
+> Execute "rails bundle" in your terminal with the specific path in order to add all the gems.
+> Execute "npm install" in your terminal with the specific path in order to add all the gems.
+- Or if you are using yarn.
+> Execute "yarn install" in your terminal with the specific path in order to add all the gems.
+
+> You have to change the data bases' crentials.
+
+> When the project si already installed execute:
+ - rake db:setup or rails db:setup
+    - Once this in being executed the nexts actions are generated 
+    - rake db:create
+    - rake db:schema:load
+    - rake db:seed
+
+> If you already have  the project in your local you can pull the lastes commit and execute the next commands:
+  - rails db:reset
+  - rails db:migrate:reset
+  - rails db:seed
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+- Once your credential is ready, execute.
 
-```sh
-  rails server
-```
---->
+> Ruby bin/rails db:create
+> Ruby bin/rails db:migrate
+> Ruby bin/rails db:seed
+ 
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
+- incomming.
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
+- The databa.yml file is configured to be deployed with render, if you want to deploy it locally please.
+  - Change your credentials.
+  - default: &default
+  - adapter: postgresql
+  - encoding: unicode
+  - username: postgres
+  - password: 153624
+  
+> Then execute: **postman start** to see the deployment in the port:5000
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **JOSE ZEPEDA**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [J2ZROMERO](https://github.com/J2ZROMERO)
+- Twitter: [@JOSEZEPED4](https://twitter.com/JOSEZEPED4)
+- LinkedIn: [JOSE ZEPEDA](https://www.linkedin.com/in/jose-zepeda-733ab91ab/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> The next features will be added.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] Tests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,27 +196,27 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/J2ZROMERO/hello_new_rails_app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> Feel free to share your inquiries to our social links provided and we will help you. Don't forget to gift us a ⭐️
 
-If you like this project...
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank MICROVERSE for preparing the content to work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,24 +224,21 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **It can works with another data base**
 
-- **[Question_1]**
+  - Of couser the idea of use postgresql is because it is a powerfull db that is well suited with rails.
 
-  - [Answer_1]
+- **Linters are necessary**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - If you want to have a redable and clean code it is a good option to choose
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/J2ZROMERO/hello_new_rails_app/blob/dev/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
